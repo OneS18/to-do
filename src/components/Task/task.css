@@ -1,0 +1,22 @@
+.form-container {
+  border-radius: 10px;
+  font-size: 80%;
+  padding: 30px 0px 0px 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  font-size: 3vh;
+}
+
+button {
+  font-size: 3vh;
+}
+
+.empty {
+  font-size: 5vh;
+}

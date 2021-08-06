@@ -1,0 +1,25 @@
+.container-todos {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.todotask {
+  font-size: 20px;
+  color: rgb(226, 223, 9);
+  border: 2px solid rgb(241, 237, 237);
+  font-size: 4vh;
+  padding: 5px 0px 0px 0px;
+  width: 30vh;
+}
+
+button {
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  font-size: 100vh;
+}

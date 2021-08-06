@@ -1,0 +1,52 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img//woods1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 80px 70px black);
+}
+
+.title {
+  background: linear-gradient(to right, #86b9b9, #32568d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5vh;
+}
+
+.logo {
+  height: 18vmin;
+  pointer-events: none;
+  animation: spin 1s ease;
+  padding: 1vh;
+  transition: 1s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-100deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo:hover {
+  display: none;
+}
